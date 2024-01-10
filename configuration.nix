@@ -117,25 +117,25 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-	rustup
-	vscode
-	git
-	elmPackages.elm
-	elmPackages.elm-test
-	elmPackages.elm-format
-	elmPackages.elm-review
-	bcc
-	linuxKernel.packages.linux_latest_libre.perf
-	nix-index
-	zsh
-	neovim	
-	steam
-	discord
-  	clang
-	bitwarden
-	obsidian
-	obs-studio
-	gleam
+    bcc
+    bitwarden
+    clang
+    discord
+    elmPackages.elm
+    elmPackages.elm-format
+    elmPackages.elm-review
+    elmPackages.elm-test
+    git
+    gleam
+    linuxKernel.packages.linux_latest_libre.perf
+    neovim	
+    nix-index
+    obs-studio
+    obsidian
+    rustup
+    steam
+    vscode
+    zsh
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
